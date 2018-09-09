@@ -7,9 +7,9 @@ else :
     length = var.count("G") + var.count("C") + var.count("T") + var.count("A")
     gc = var.count("G") + var.count("C")
     check = round(gc/len(var) * 100)
-    seqL = round(len(var) / 4)
+#     seqL = round(len(var) / 4)
     lengthStr = str(length) + ""
-    nucL = str(seqL) + ""
+#     nucL = str(seqL) + ""
     print("\n", "This sequence has ", lengthStr, " characters.")
-    print(" This sequence has ", nucL, " nucleotides.")
+#     print(" This sequence has ", nucL, " nucleotides.")
     print(" The GC percentage is: ", check, "%")
