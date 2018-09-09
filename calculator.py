@@ -10,6 +10,6 @@ else :
     seqL = round(len(var) / 4)
     lengthStr = str(length) + ""
     nucL = str(seqL) + ""
-    print("\n", "This sequence has ", lengthStr, " variables.")
+    print("\n", "This sequence has ", lengthStr, " characters.")
     print(" This sequence has ", nucL, " nucleotides.")
     print(" The GC percentage is: ", check, "%")
